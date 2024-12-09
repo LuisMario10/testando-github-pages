@@ -1,0 +1,43 @@
+@media (max-width: 720px) {
+
+    #container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #container #container-foto {
+        width: 100%;
+    }
+
+    #about-service #text-about-service {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #about-service #art-foto {
+        display: none;
+    }
+
+    #our-services {
+        align-items: center;
+    }
+
+    #our-services-text h1 {
+        margin-bottom: auto;
+    }
+
+    #our-services-card {
+        flex-wrap: wrap;
+        overflow: scroll;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .container-card-contacts {
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
+}
