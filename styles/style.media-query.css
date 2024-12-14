@@ -1,5 +1,13 @@
 @media (max-width: 720px) {
 
+    .menu {
+        display: none;
+    }
+
+    #button-change-theme {
+        display: none;
+    }
+
     #container {
         flex-direction: column;
         gap: 32px;
@@ -7,6 +15,10 @@
 
     #container #container-foto {
         width: 100%;
+    }
+
+    #button-menu-burguer {
+        display: block;
     }
 
     #about-service #text-about-service {
